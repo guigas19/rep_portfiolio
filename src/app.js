@@ -11,7 +11,7 @@ app.use(cors());
 const repositories = [];
 
 app.get("/", (request, response) => {
-  return response.json({ message: "Bem vindo Testers!!!" });
+  return response.json({ message: "Bem vindo NOVAMENTE!!!" });
 });
 
 app.get("/repositories", (request, response) => {
